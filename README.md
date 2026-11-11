@@ -303,6 +303,10 @@ pip install -e .[test]
 uv pip install -e .[test]
 ```
 
+On macOS, `./install_macos.sh` does all of this in one step — Homebrew Python 3.13 and CMake,
+the virtual environment, the native equity engine and a Finder launcher. See
+[docs/macos-install.md](docs/macos-install.md).
+
 On Windows PowerShell, create and activate the environment with
 `py -3 -m venv .venv` and `.venv\Scripts\Activate.ps1`, then run the same
 `pip install` command.
